@@ -23,6 +23,11 @@
   --line-hieght: 1.8;
 }
 
+h2::selection {
+  background-color: var(--main-color);
+  color: var(--body-color);
+}
+
 html {
   scroll-behavior: smooth;
 }
